@@ -116,3 +116,6 @@ Docker provides tools to stop and remove containers as given below
 Despite stopping and removing previous containers, you may get issues like "port is already allocated". So it is good practice to run this command as it removes previously used networks. You may have to restart Docker desktop if issue still persists.
 
 	docker-compose down
+
+# Updated to Spark 3.0.1
+# RUn SPark Delta Examples: spark-submit --packages io.delta:delta-core_2.12:0.7.0 python/delta_examples/quickstart.py 

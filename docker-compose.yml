@@ -19,7 +19,8 @@ services:
       - 7077:7077
     volumes:
       - ./conf/master:/conf
-      - ./data:/tmp/data
+      - ../airflow_data:/tmp/data
+      - ../spark_delta_examples:/usr/spark-3.0.1/python/delta_examples
 
   worker:
     build:

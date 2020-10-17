@@ -2,3 +2,5 @@ numpy
 redis
 redis-simple-cache-3k
 livy
+pyspark
+findspark
